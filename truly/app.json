@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/first/first",
+    "pages/other/other",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "棉花被怎么弹",
+    "navigationBarTextStyle":"black"
+  }
+}

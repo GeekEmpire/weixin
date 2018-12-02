@@ -1,0 +1,27 @@
+{
+  "pages":[
+   "pages/web/view",
+   "pages/viewcontent/label/label",
+   "pages/viewcontent/button/button",
+   "pages/textarea/textarea"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/viewcontent/label/label",
+        "text": "text"
+      },
+      {
+        "pagePath": "pages/viewcontent/button/button",
+        "text": "text"
+      }
+     
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "web-view",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,4 @@
+/* pages/slider/slider.wxss */
+.other-1{
+  height: 30px;
+}

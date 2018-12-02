@@ -1,0 +1,61 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 1vh;
+  position: fixed;
+}
+.tx{
+  width: 100vw;
+  height: 10vh;
+  line-height: 10vh;
+  border-top: 1px solid #ccc;
+}
+.tx view,.zh view,.jh view{
+  float: left;
+  margin-left: 3vw;
+}
+.tx image{
+  float: right;
+  height: 8vh;
+  width: 8vh;
+  margin-top: 1vh;
+  margin-right: 5vw;
+  border: 1px solid black;
+}
+.nc{
+  width: 100vw;
+  height: 7vh;
+  line-height: 7vh;
+  border-top: 1px solid #ccc;
+}
+.nc .l{
+  float: left;
+  margin-left: 3vw;
+}
+.nc .r{
+  float: right;
+  margin-right: 5vw;
+}
+#nc-last{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 4vh;
+}
+.zh,.jh,.tc{
+  width: 100vw;
+  height: 7vh;
+  line-height: 7vh;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 4vh;
+}
+.zh image{
+  width: 20vw;
+  height: 5vh;
+  border: 1px solid black;
+  float: right;
+  margin-right: 5vw;
+  margin-top: 1vh;
+}
+.tc view{
+  text-align: center;
+}

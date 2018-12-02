@@ -1,0 +1,38 @@
+<view class='container'>
+  <view class="heading">
+    <view class='h-search'>
+      <image src='../images/h/sao.jpg' class='hs-sm'></image>
+      <input type='hs-text'></input>
+      <image src='../images/h/yy.jpg' class='hs-sm'></image>
+    </view>
+    <view class='h-bt'>
+      <view>注册</view>
+      <text></text>
+      <view>登录</view>
+      <text></text>
+      <view>个人</view>
+      <text></text>
+      <view>拍卖</view>
+    </view>
+    <view class='h-sw'>
+      <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" bindchange='swiperChange' >
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item.image}}" class="slide-image"/>
+            <text>{{item.text}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view class='line'></view>
+  <view class='content'>
+    <block wx:for="{{contents}}">
+      <view class='pm'>
+        <image src="{{item.image}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </block>
+  </view>
+
+</view>

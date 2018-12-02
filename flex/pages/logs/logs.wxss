@@ -1,0 +1,21 @@
+.contain{
+  height: 1000rpx;
+  width: 100%;
+  background-color: blue;
+  margin: 150rpx;
+}
+.item{
+  height: 150rpx;
+  width: 150rpx;
+  background-color: red;
+  border: 1px solid #fff;
+  
+}
+.it3{
+  /* 相对定位：相对与自己来说*/
+  /* position: relative */
+  /* 决对定位：离他最近的一个已定位的父级元素 */
+  position: absolute;
+  left: 50rpx;
+  top: 50rpx;
+}

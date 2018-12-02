@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/express/express",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/register/register",
+    "pages/manage/manage",
+    "pages/things/things",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拍卖会",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/icon/1.png",
+        "iconPath": "pages/images/icon/01.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/icon/2.png",
+        "iconPath": "pages/images/icon/02.png",
+        "pagePath": "pages/express/express",
+        "text": "物流"
+      },
+      {
+        "selectedIconPath": "pages/images/icon/4.png",
+        "iconPath": "pages/images/icon/04.png",
+        "pagePath": "pages/user/user",
+        "text": "设置"
+      }
+    ]
+  }
+}

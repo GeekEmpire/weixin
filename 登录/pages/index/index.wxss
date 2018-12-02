@@ -1,0 +1,12 @@
+input{
+  border: 1px solid red;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
+}
+.btn-query{
+  width: 120px;
+  height: 45px;
+  margin: 10px;
+}

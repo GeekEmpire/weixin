@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <input placeholder='请输入需要查询的单号' bindinput='input'></input>
+  <button type='primary' class='btn-query' bindtap='btnclick' >查询</button>
+</view>

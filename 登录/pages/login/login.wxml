@@ -1,0 +1,7 @@
+<view class='contain'>
+  <view class='title'>用户名:</view>
+  <input maxlength='20' bindinput='usernameInput'></input>
+  <view class='title'>密码:</view>
+  <input password bindinput='passwordInput'></input>
+  <button type='primary' bindtap='btn'>登录</button>
+</view>

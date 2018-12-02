@@ -1,0 +1,11 @@
+<view>
+  <view wx:for="{[kds}}">
+    <image src='{{item.image}}'></image>
+    <view class='r'>
+      <view class='kd-state'>{{item.state}}</view>
+      <view class='kd-detail'>{{item.detail}}</view>
+      <view class='kd-express'>{{item.express}}</view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "flex布局",
+    "navigationBarTextStyle":"black"
+  }
+}

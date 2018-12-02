@@ -1,0 +1,11 @@
+/* pages/wxss/wxss.wxss */
+.n1 {
+  color: red;
+}
+@import 'a.wxss';
+#v1 {
+  color:blue;
+}
+view{
+  color: #000!important;
+}

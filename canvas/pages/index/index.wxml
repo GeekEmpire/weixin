@@ -1,0 +1,4 @@
+<view class='contain'> 
+  <canvas canvas-id='can1'></canvas>
+</view>
+ 

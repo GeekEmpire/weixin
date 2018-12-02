@@ -1,0 +1,7 @@
+<progress percent='20'></progress>
+<progress percent='40' stroke-width='12'></progress>
+<progress percent='60' active='true'></progress>
+<progress color='red'></progress>
+<progress percent='10' color='red'></progress>
+<progress percent='50' activeColor='blue' backgroundColor='#000' color='red'></progress>
+<progress percent='50' backgroundColor='#000' color='red'></progress>

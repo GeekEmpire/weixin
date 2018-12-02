@@ -1,0 +1,5 @@
+<import src="a.wxml"></import>
+<include src="b.wxml"/>
+<template is="a"></template>
+<import src="b.wxml"></import>
+<template is="b"></template>

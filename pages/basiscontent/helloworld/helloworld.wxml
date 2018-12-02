@@ -1,0 +1,35 @@
+<!--
+<view class='n1'>HelloWorld</view>
+<view hidden='{{flag?true:false}}'>李雪</view>
+
+<view>{{flag}}</view>
+
+<view wx:if="{{condition===1}}">1</view>
+<view wx:elif="{{condition===2}}">2</view>
+<view wx:else>3</view>
+
+<template name="tempItem">
+  <view>
+    <view>收件人：{{name}}</view>
+    <view>联系方式: {{phone}}</view>
+    <view>地址: {{address}}</view>
+  </view>
+</template>
+<template is="tempItem" data="{{...item}}"></template>
+<view>
+  <block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+    <view>{{index}}:{{item.name}}</view>
+  </block>
+</view>
+-->
+<view>
+  <view class='btn' bindtap="clickMe">
+    点击我
+  </view>
+</view>
+<view class="contianer-a" bindtap='clicka'>
+  <view class='contianer-b' bindtap='clickb'>
+    <view class='contianer-c' bindtap='clickc'>
+    </view>
+  </view>
+</view>

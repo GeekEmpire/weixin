@@ -1,0 +1,4 @@
+<view style='display:flex;justify-content:space-between'>
+  <text>1</text>
+  <text>end</text>
+</view>

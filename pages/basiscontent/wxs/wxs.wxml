@@ -1,0 +1,19 @@
+<wxs module="m3">
+  var v=1;
+  module.exports.value = v;
+  var s ="helloworld";
+  module.exports.s = s;
+  console.log(v);
+  //单行注释
+  /*
+  多行注释
+  v+=1;
+  */
+  console.log(v);
+  /*结尾注释
+  var d =3;
+  console.log(d);
+</wxs>
+<wxs src="a.wxs" module="m"></wxs>
+<view>{{m3.s}}</view>
+<view>{{m.message}}</view>

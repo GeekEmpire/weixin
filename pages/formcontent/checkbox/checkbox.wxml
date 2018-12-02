@@ -1,0 +1,8 @@
+<checkbox-group bindchange='checkboxChange'>
+  <view class='checkbox' wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}">
+      {{item.value}}
+    </checkbox>
+  </view>
+</checkbox-group>
+<checkbox checked disabled color='red'>韩国</checkbox>

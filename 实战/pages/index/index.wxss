@@ -1,0 +1,46 @@
+.section{
+  width: 100%;
+  height: 100%;
+}
+.section-title{
+  display: flex;
+  border-left: 4px solid cadetblue;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-2{
+  color: tomato;
+}
+
+.section-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.picitem{
+  height: 250rpx;
+  width: 45%;
+  margin: 2px;
+  position: relative;
+}
+.picitem image{
+  width: 100%;
+  height: 100%;
+}
+
+.picitem-text{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: blue;
+  background: -webkit-linear-gradient(bottom,rgba(255,255,255,0.8),rgba(255,255,255,0));
+  height: 125rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1px;
+}

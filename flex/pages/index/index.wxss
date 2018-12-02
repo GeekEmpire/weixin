@@ -1,0 +1,35 @@
+.container{
+  height: 1000rpx;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  /* 决定排列方向 */
+  /* flex-direction: row; */
+  /* flex-direction: column */
+  /* 换行 */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: nowrap */
+  /* flex-wrap: wrap */
+  flex-flow: column wrap;
+  /* 在主轴的对齐方式 */
+  justify-content: space-between; /*flex-start左对齐 flex-end右对齐 space-around平分 */
+  /* 在交叉轴上的对齐方式 */
+  align-items: center;
+  /* stretch baseline */
+  /* 多余填充，不足缩放 */
+  /* flex-grow: 2 flex-shrink: flex-basis */
+
+
+}
+.item{
+  height: 100rpx;
+  width: 100rpx;
+  background-color: red;
+  border: 1px solid #fff;
+  order: 2;
+  
+}
+.it3{
+  order: 1;
+  align-self: flex-end;
+}

@@ -1,0 +1,46 @@
+<view class='container'>
+  <view class='heading'>
+    <image src='../image/title.jpg' class='head-img'></image>
+  </view>
+  <view class='content'>
+    <view class='line' id='line1'>
+      <text class='l'>地区 :</text>
+      <text class='r'>江苏无锡</text>
+    </view>
+    <view class='line'>
+      <view></view>
+      <text class='l'>QQ :</text>
+      <text class='r'>27341459</text>
+    </view>
+    <view class='line'>
+      <text class='l'>腾讯直播id :</text>
+      <text class='r'>137208942</text>
+    </view>
+    <view class='line'>
+      <text class='l'>微信 :</text>
+      <text class='r'>Circle1000000</text>
+    </view>
+    <view class='line' id='line2'>
+      <text class='l'>新浪微博 :</text>
+      <text class='r'>棉花被怎么弹</text>
+    </view>
+    <view class='line'>
+      <text class='l'>腾讯直播 :</text>
+      <text class='r'>棉花被怎么弹</text>
+    </view>
+    <view class='line'>
+      <text class='l'>微信公众号 :</text>
+      <text class='r'>棉花被怎么弹</text>
+    </view>
+    <view class='line'>
+      <text class='l'>微信服务号 :</text>
+      <text class='r'>同城棉花被怎么弹</text>
+    </view>
+    <view class='line'>
+      <view class='l'>
+          <image src='../image/dian.jpg' class='dian'></image>
+      </view>
+      <navigator class='r' url='../other/other'>进入微店</navigator>
+    </view>
+  </view>
+</view>

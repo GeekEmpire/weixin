@@ -1,0 +1,11 @@
+<radio-group class='radio-group' bindchange='radioChange'>
+  <label class='radio' wx:for='{{items}}'>
+    <radio value='{{item.name}}' checked='{{item.checked}}'>{{item.value}}</radio>
+  </label>
+</radio-group>
+<view class='btn-navigate'>
+  <navigator url='../slider/slider' hover-class='navigate-hover'>jump to the slider page</navigator>
+  <navigator url='../textarea/textarea' hover-class='other-navigate-hover' open-type='redirect'>jump to the textarea page</navigator>
+  <navigator url="../viewcontent/label/label" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+  <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">打开绑定的小程序</navigator>
+</view>

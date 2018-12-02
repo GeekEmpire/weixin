@@ -1,0 +1,30 @@
+.container{
+  width: 80%;
+  height: auto;
+  margin: 10%;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.section-title{
+  font-size: 20px;
+}
+input{
+  margin-left: 5px;
+  border: 1px #000 solid;
+  width: 170px;
+}
+.bt{
+  display: flex;
+  flex-direction: row;
+}
+button{
+  margin-top: 10px;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  font-size: 12px;
+}
+

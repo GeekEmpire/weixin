@@ -1,0 +1,2 @@
+<button bindtap='btn'>选择</button>
+<image src='{{image[1]}}'></image>

@@ -1,0 +1,20 @@
+<view class='container'>
+  <form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class="section">
+      <text class="section__title">区域名: </text>
+      <input name="areaName" value='{{areaName}}' />
+    </view>
+    <view class="section">
+      <text class="section__title">优先级: </text>
+      <input name="priority" value='{{priority}}'/>
+    </view>
+    <view class='bt'>
+      <button form-type='submit' type='primary'>确定</button>
+      <button form-type='reset' type='primary'>清空</button>
+    </view>
+  </form>
+  
+  
+
+
+</view>

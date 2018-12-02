@@ -1,0 +1,7 @@
+<template name="a">
+  This is a template!
+</template>
+<template name="aluggage">
+  This is a luggage!
+</template>
+<view>I'm a view</view>

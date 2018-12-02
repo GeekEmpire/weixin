@@ -1,0 +1,5 @@
+<view class='n1'>hello world</view>
+<view style="width:100%;height:60rpx;background-color:{{colorV}};">
+  李雪
+</view>
+<view id='v1'>1</view>

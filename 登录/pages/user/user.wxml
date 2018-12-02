@@ -1,0 +1,3 @@
+<!--pages/user/user.wxml-->
+<view>{{username}}</view>
+<image src='http://news.hainan.net/Editor/img/201710/20171030/big/20171030192251331_2555956.jpg' mode='widthFix'></image>

@@ -1,0 +1,30 @@
+<view class='container'>
+  <view class='tx'>
+    <view>头像</view>
+    <image src=''></image>
+  </view>
+  <view class='nc'>
+    <view class='l'>昵称</view>
+    <view class='r'>少年，你好！</view>
+  </view>
+  <view class='nc'>
+    <view class='l'>性别</view>
+    <view class='r'>少侠</view>
+  </view>
+  <view class='nc' id="nc-last">
+    <view class='l'>拍卖ID</view>
+    <view class='r'>352215006</view>
+  </view>
+
+  <view class='zh'>
+    <view class='l'>账号管理</view>
+    <image src=''></image>
+  </view>
+  <view class='jh'>
+    <view class='l'>已完成计划</view>
+    <image src=''></image>
+  </view>
+  <view class='tc'>
+    <view class='l'>退出账号</view>
+  </view>
+</view>
